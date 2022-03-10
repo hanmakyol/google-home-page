@@ -173,4 +173,52 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 .voice-search {
   margin: 5px;
   padding: 5px;
+  padding-right: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  align-items: center;
+  padding-top: 5px
+   
+}
+
+.googlesearch {
+  margin-top: 25px;
+  background-color: white;
+  border: 1px solid white;
+  font-size: 14px;
+  font-family: arial;
+  color: #5f6368;
+  margin-right: 15px;
+  height: 36px;
+}
+
+.googlesearch:hover {
+  border: 1px solid #e3e5e7;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19)
+}
+
+.feelinglucky {
+  margin-top: 15px;
+  background-color: white;
+  border: 1px solid white;
+  font-size: 14px;
+  font-family: arial;
+  color: #5f6368;
+  margin-right: 15px;
+  height: 36px;
+}
+
+.feelinglucky:hover {
+  border: 1px solid #e3e5e7;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19)
+}
+
+.footer {
+  list-style-type: none;
 }
